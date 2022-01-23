@@ -1,70 +1,67 @@
-# Getting Started with Create React App
+## Space Travellers
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A simple crypto currency convertor web-app with crypto news feed.
 
-## Available Scripts
+![Screenshot](demo.png)
 
-In the project directory, you can run:
+## Built With
 
-### `npm start`
+- Java Script
+- React
+- HTML
+- CSS
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Technologies used
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Github
+- GitFlow
+- Visual Studio Code
+- react
+- npm
+- Netlify deployment
 
-### `npm test`
+## Demo
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+[Netlify](https://happy-darwin-85979d.netlify.app)
 
-### `npm run build`
+## Getting Started
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+To get a local copy up and running follow these simple example steps.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- go to the directory that you want to clone the repository in.
+- right click and choose Git Bash here.
+- type "git clone https://github.com/newhorizon-tech/crypto-dashboard.git".
+- run `npm install` to install all the dependencies
+- Run `npm start` to bundle the files in the src folder
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+or
 
-### `npm run eject`
+- Go to the dist folder and open index.html
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Authors
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+👤 **Shoira**
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- GitHub: [@shoirata](https://github.com/shoirata)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/shoira-tashpulatova-bab4a7122/)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+![Shoira's GitHub stats](https://github-readme-stats.vercel.app/api?username=shoirata&count_private=true&theme=dark&show_icons=true)
 
-## Learn More
+👤 **Alaukik**
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- GitHub: [@newhorizon-tech](https://github.com/newhorizon-tech)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/alaukik-tech)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+![Shoira's GitHub stats](https://github-readme-stats.vercel.app/api?username=newhorizon-tech&count_private=true&theme=dark&show_icons=true)
 
-### Code Splitting
+## Acknowledgments
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- Microverse
 
-### Analyzing the Bundle Size
+## 📝 License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+This project is [MIT](MIT.md) licensed.
 
-### Making a Progressive Web App
+## Show your support
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Give a ⭐️ if you like this project!

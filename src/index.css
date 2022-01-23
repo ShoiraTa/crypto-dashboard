@@ -11,3 +11,62 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.news-feed{
+  background-color: rgb(204, 204, 231);
+  padding: 18px;
+  margin: 5px;
+  box-shadow: 0 3px 10px rgb(0, 0, 0, 0.2);
+  max-width: 300px;
+}
+
+.Crypto-h{
+  text-align: center;
+}
+
+.currency-convertor{
+  background-color: rgb(230, 223, 211);
+  padding: 18px;
+  margin: 18px;
+  box-shadow: 0 3px 10px rgb(0, 0, 0, 0.2);
+}
+
+.app{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.input-box{
+  background-color: rgb(218, 227, 238);
+  padding: 30px;
+  border-radius: 10px;
+  margin-top: 18px;
+  box-shadow: 0 3px 10px rgb(0, 0, 0, 0.2);
+  padding-bottom: 45px;
+}
+
+.exchange-rate{
+  background-color: rgb(221, 230, 221);
+  padding: 18px;
+  margin-top: 18px;
+  box-shadow: 0 3px 10px rgb(0, 0, 0, 0.2);
+}
+
+input, select{
+  border: none;
+  background-color: #fff;
+}
+
+button{
+  border: none;
+  padding: 5px 10px ;
+  float: right;
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover{
+  background-color: cadetblue;
+}
