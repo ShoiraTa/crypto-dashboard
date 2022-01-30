@@ -8,10 +8,11 @@ Building and Deploying a React Cryptocurrency App and Mastering Redux Toolkit
 
 - Java Script
 - React
+- Redux
 - HTML
 - CSS
 
-React libraries:
+## React libraries used:
 
 - ant design @ant-design/icons
 - react-redux @reduxjs/toolkit
@@ -27,7 +28,6 @@ React libraries:
 - Github
 - GitFlow
 - Visual Studio Code
-- react
 - npm
 - Netlify deployment
 

@@ -20,6 +20,7 @@ a:hover{
 .app{
   display: flex;
   overflow: hidden;
+  background-color: #f0f2f5;
 }
 
 .navbar{
@@ -30,7 +31,6 @@ a:hover{
 .main{
   flex: 0.8;
   width: 100%;
-  
 }
 .routes{
   padding: 20px;
@@ -357,6 +357,7 @@ width: 70%;
 }
 .crypto-card-container{
   min-height: 65vh !important;
+  justify-content: center;
 }
 .crypto-card{
   min-width: 250px;
