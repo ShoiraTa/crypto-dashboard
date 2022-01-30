@@ -58,10 +58,6 @@ or
 
 ![Shoira's GitHub stats](https://github-readme-stats.vercel.app/api?username=shoirata&count_private=true&theme=dark&show_icons=true)
 
-## Acknowledgments
-
-- Microverse
-
 ## 📝 License
 
 This project is [MIT](MIT.md) licensed.
