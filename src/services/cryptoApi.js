@@ -13,7 +13,12 @@ export const cryptoApi = createApi({
   endpoints: (builder) => ({
     getCryptos: builder.query(
       {
-        query: () => createRequest('/coins')
+        query: (count) => createRequest(`/coins?limit=${count}`)
+      }
+    ),
+    getCryptoDetails: builder.query(
+      {
+        query: (coinId) => createRequest(`/coins/${coinId}`)
       }
     )
   })
@@ -23,20 +28,6 @@ export const {
   useGetCryptosQuery,
 } = cryptoApi
 
-// var options = {
-//   method: 'GET',
-//   url: 'https://coinranking1.p.rapidapi.com/coins',
-//   params: {
-//     referenceCurrencyUuid: 'yhjMzLPhuIDl',
-//     timePeriod: '24h',
-//     tiers: '1',
-//     orderBy: 'marketCap',
-//     orderDirection: 'desc',
-//     limit: '50',
-//     offset: '0'
-//   },
-//   headers: {
-//     'x-rapidapi-host': 'coinranking1.p.rapidapi.com',
-//     'x-rapidapi-key': '85ea2fa5b5msha8a318c4d31103bp16558ajsn86c7d84234e6'
-//   }
-// };
+export const {
+  useGetCryptoDetailsQuery,
+} = cryptoApi
