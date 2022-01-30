@@ -33,7 +33,7 @@ Building and Deploying a React Cryptocurrency App and Mastering Redux Toolkit
 
 ## Demo
 
-[Netlify](https://happy-darwin-85979d.netlify.app)
+[Netlify](https://cryptoversedashboard.herokuapp.com)
 
 ## Getting Started
 
