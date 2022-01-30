@@ -14,12 +14,11 @@ function News({simplified}) {
   const { data, isFetching} = useGetCryptoNewsQuery({newsCategory, count: simplified ? 6: 12 })
   const { data: cryptoslist } = useGetCryptosQuery(100);
 
-  console.log('heeeeeee', newsCategory)
+  // console.log('heeeeeee', newsCategory)
 
   const demoImageUrl = "http://coinrevolution.com/wp-content/uploads/2020/06/cryptonews.jpg"
   if (!data?.value) return 'Loading..'
 
-  console.log(data)
   return (
     <>
     {!simplified && (

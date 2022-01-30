@@ -32,8 +32,8 @@ function Cryptocurrencies({ simplified }) {
     )}
     
       <Row gutter={[32, 32]} className="crypto-card-container">
-        {  cryptos?.map((curency) => (
-            <Col xs={24} sm={12} lg={6} className="crypto-card" key={curency.id}>
+        {  cryptos?.map((curency, id) => (
+            <Col xs={24} sm={12} lg={6} className="crypto-card" key={id}>
               <Link to={`/crypto/${curency.uuid}`}>
                 <Card
                   title={`${curency.rank}.${curency.name}`}
